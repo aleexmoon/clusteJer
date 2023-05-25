@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clustering Results</title>
+</head>
+<body>
+    <h1>Clustering Results</h1>
+
+    <h2>Centroids</h2>
+    {{ centroids | safe }}
+
+    <h2>Scatter Plot</h2>
+    <img src="{{ scatter_plot_path }}" alt="Scatter Plot">
+
+    <h2>Heatmap</h2>
+    <img src="{{ heatmap_path }}" alt="Heatmap">
+
+    <h2>Dendrogram</h2>
+    <img src="{{ dendrogram_path }}" alt="Dendrogram">
+
+    <h2>Pairplot</h2>
+    <img src="{{ pairplot_path }}" alt="Pair Plot">
+</body>
+</html>
